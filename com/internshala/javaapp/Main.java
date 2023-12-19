@@ -10,7 +10,7 @@ public class Main {
         System.out.println("Enter your Score:");
         score = org.nextInt();
         org.close();
-        if (score >= 90) {
+        if (score >= 100) {
             grade = 'A';
         } else if (score >= 80) {
             grade = 'B';
